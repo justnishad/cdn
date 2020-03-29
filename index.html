@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online IDE</title>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="https://rawcdn.githack.com/justnishad/cdn/8120bffca02b7c7dbd3e0e740dffd34f76e51b9b/codemirror.css">
+	<link rel="stylesheet" href="https://rawcdn.githack.com/justnishad/cdn/8120bffca02b7c7dbd3e0e740dffd34f76e51b9b/dracula.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://rawcdn.githack.com/justnishad/cdn/8120bffca02b7c7dbd3e0e740dffd34f76e51b9b/ce.css">
+
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+   
+   <script src="https://rawcdn.githack.com/justnishad/cdn/8120bffca02b7c7dbd3e0e740dffd34f76e51b9b/codemirror.js"></script>
+   <script src="https://rawcdn.githack.com/justnishad/cdn/8120bffca02b7c7dbd3e0e740dffd34f76e51b9b/clike.js"></script>
+   <script src="https://rawcdn.githack.com/justnishad/cdn/8120bffca02b7c7dbd3e0e740dffd34f76e51b9b/python.js"></script>
+
+   <script src="https://rawcdn.githack.com/justnishad/cdn/8120bffca02b7c7dbd3e0e740dffd34f76e51b9b/active-line.js"></script>
+   <script src="https://rawcdn.githack.com/justnishad/cdn/8120bffca02b7c7dbd3e0e740dffd34f76e51b9b/closebrackets.js"></script>
+</head>
+<body>
+     <nav class="navbar navbar-dark bg-dark">
+     	<a href="#" class="navbar-brand">PS-Code Arena</a>
+     </nav>
+	<div class="container-fluid">
+     <div class="row">
+     <div class="col-lg-6 md-12 sm-12">
+       <div class="container-fluid edit">
+       <label>Select Language</label>&nbsp;&nbsp;&nbsp;
+	    <select id="select" onchange="selectLang()">
+		 <option value="text/x-csrc">C</option>
+		 <option value="text/x-c++src">C++</option>
+		 <option value="text/x-java">Java</option>
+		 <option value="text/x-scala">Scala</option>
+		 <option value="text/x-kotlin">Kotlin</option>
+		 <option value="python">Python</option>
+	   </select><br><br>
+	   <textarea id="editor" class="CodeMirror">Code here</textarea><br><br>
+
+	   <button class="runbutton">Run</button>&nbsp;&nbsp;
+	   <button class="submitbutton">Submit</button>
+      <br><br>
+      </div> 
+      </div>
+      <div class="col-lg-6 md-12 sm-12">
+      	<div class="container-fluid edit">
+      	<h1>Output</h1>
+      	</div>
+      </div>
+      </div> 
+
+   </div>
+	<script src="https://rawcdn.githack.com/justnishad/cdn/8120bffca02b7c7dbd3e0e740dffd34f76e51b9b/editor.js"></script>
+	
+</body>
+</html>
+
+	
