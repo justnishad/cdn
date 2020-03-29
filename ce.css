@@ -1,0 +1,50 @@
+ 	.CodeMirror {
+  font-family: "Ubuntu Mono";
+  line-height: 1.5em;
+  font-size: 1em;
+  height: 750px;
+  border:2px solid;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #d5d5d5;
+
+  }
+  .edit{
+  	padding: 10px;
+
+
+  }
+  .runbutton
+  {
+  	background-color:#464646;
+  	color: #fff;
+  	box-shadow: 5px 5px 10px #d5d5d5;
+  	padding: 8px;
+  	border-radius: 5px;
+  	border:2px solid #464646;
+  	font-size: 15px;
+  	width:100px;
+
+  }
+  .submitbutton
+  {
+  	background-color:#00e200;
+  	color: #464646;
+  	box-shadow: 5px 5px 10px #d5d5d5;
+  	padding: 8px;
+  	border-radius: 5px;
+  	border:2px solid #00e200;
+  	font-size: 15px;
+  	font-weight: 30px;
+  	width:135px;
+
+  }
+
+  body
+  {
+
+
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f5f5f5;
+
+
+  }
