@@ -1,4 +1,4 @@
-var myTextarea=document.getElementById('editor');
+var myTextarea=document.getElementById('editors');
   var editor = CodeMirror.fromTextArea(myTextarea, {
     lineNumbers: true,
     theme: "dracula",
